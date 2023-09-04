@@ -10,7 +10,7 @@ const Sauce = require('./Models/Sauce.js')
 const app = express()
 
 app.use(express.json())
-app.use(cors({credentials: true, origin: ["http://localhost:3000"]}))
+app.use(cors({credentials: true, origin: ["http://localhost:3000", "https://pizzeria-font.onrender.com"]}))
 
 mongoose.connect(process.env.MONGODB_LINK)
 
