@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/deiman999202/petruccio-back.git",
   "author": "deiman999202 <deiman999202@gmail.com>",
+  "scripts": {
+    "install-server": "npm install",
+    "start-server": "node index.js"
+  },
   "license": "MIT"
 }
